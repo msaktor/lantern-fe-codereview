@@ -1,0 +1,43 @@
+.top-wrapper {
+    height: 55px;
+    padding: 10px 15px;
+    border-bottom: 1px solid gainsboro;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    background: white;
+}
+.page-wrapper {
+    margin-top: 55px;
+}
+.page-wrapper .page {
+    padding-top: 20px;
+}
+.page-wrapper .menu {
+    position: fixed;
+    left: 0;
+    top: 55px;
+    height: calc(100vh - 55px);
+    border-right: 1px solid gainsboro;
+}
+.page-wrapper .menu .profile {
+    text-align: center;
+    padding: 30px 15px;
+    border-bottom: 1px solid gainsboro;
+    margin: 0 -15px;
+}
+.page-wrapper .menu .profile i {
+    display: block;
+    padding-bottom: 15px;
+}
+.page-wrapper .menu .item {
+    display: block;
+    color: black;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 0 -15px;
+    border-bottom: 1px solid gainsboro;
+}

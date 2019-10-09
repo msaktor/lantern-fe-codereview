@@ -1,0 +1,14 @@
+.login-form-wrapper {
+    height: 100vh;
+}
+.login-form-wrapper .card {
+    top: calc(50vh - 125px);
+}
+.login-form-wrapper .card .svg-inline--fa {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.login-form-wrapper .card input {
+    padding-left: 35px;
+}
