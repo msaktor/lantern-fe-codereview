@@ -2,11 +2,11 @@
 
 ## Installation
 
-Run `npm install`
+Run `yarn install`
 
 ## Run server
 
-Run `npm start` for a dev server.
+Run `yarn start` for a dev server.
 
 ## Login
 
